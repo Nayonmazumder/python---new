@@ -4,7 +4,7 @@
 score = int(input("Please Enter the Score: "))
 
 
-def grade_cal(score):
+def grade_cal(*args):
     if score > 100:
         return '"Please Check Your score and try again: "'
     elif score >= 90:
